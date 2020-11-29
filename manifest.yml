@@ -1,0 +1,8 @@
+applications:
+  - path: . 
+    name: tensorflowapp
+    buildpack: sdk-for-nodejs
+    memory: 1024M
+    instances: 1
+    random-route: false
+    disk_quota: 1024M 
